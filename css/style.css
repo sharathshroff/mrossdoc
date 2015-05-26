@@ -95,8 +95,9 @@ p {
 #bio {
     height: 345px;
     margin: auto;
-    background-image: linear-gradient(to bottom right,#268dd1 0,#6f2cc7 100%);
     background-image: -webkit-linear-gradient(top left,#2db343 0,#179990 100%);
+    background-image: -moz-linear-gradient(to bottom right,#268dd1 0,#6f2cc7 100%);
+    background-image: linear-gradient(to bottom right,#268dd1 0,#6f2cc7 100%);
     color: #fff;
 }
 
@@ -104,13 +105,16 @@ p {
     width: 45%;
     margin: auto;
     padding: 124px 0;
+    text-align: center;
 }
 
 #practitioners {
     height: 345px;
     margin: auto;
-    background-image: linear-gradient(to bottom right,#2db343 0,#179990 100%);
     background-image:  -webkit-linear-gradient(top left,#268dd1 0,#6f2cc7 100%);
+    background-image: -moz-linear-gradient(to bottom right,#2db343 0,#179990 100%);
+    background-image: linear-gradient(to bottom right,#2db343 0,#179990 100%);
+
     color: #fff;
 }
 
@@ -123,10 +127,11 @@ p {
 #practitioners .list {
     list-style: none;
     -webkit-column-count: 2;
+    -moz-column-count: 2;
     column-count: 2;
 }
 
 #practitioners .list li {
     padding: 10px 0;
-    width: 400px;
+    text-align: center;
 }
