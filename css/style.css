@@ -11,8 +11,41 @@ body {
     width: 100%;
 }
 
+@font-face {
+	font-family: 'mrossdoc';
+	src:url('/fonts/mrossdoc.eot?xnjtx9');
+	src:url('/fonts/mrossdoc.eot?#iefixxnjtx9') format('embedded-opentype'),
+		url('/fonts/mrossdoc.ttf?xnjtx9') format('truetype'),
+		url('/fonts/mrossdoc.woff?xnjtx9') format('woff'),
+		url('/fonts/mrossdoc.svg?xnjtx9#mrossdoc') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'mrossdoc';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+	content: "\e600";
+}
+
 h1, h2, h3, h4, h5, h6 {
     display: inline-block;
+}
+
+h2 {
+    font-size: 18px;
 }
 
 a {
@@ -21,40 +54,79 @@ a {
 
 header {
     height: 120px;
+
+}
+
+p {
+    padding-bottom: 10px ;
+}
+
+.wrap {
+    width: 80%;
+    margin: auto;
 }
 
 .main {
     width: 80%;
     height: 100%;
     margin: auto;
-    line-height: 120px;
-}
-
-.logo {
-    height: 100px;
-    width: 100px;
-    float: left;
-    margin: 10px 0;
-    background-image: url("/img/logo-temp.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: contain;
-}
-
-.name {
-    font-size: 42px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #333;
-    margin: 10px 0;
-    padding: 0 15px;
-    vertical-align: middle;
     text-align: center;
 }
 
+.logo {
+    position: relative;
+    right: 20px;
+    top: 7px;
+    font-size: 74px;
+    color: #333;
+}
 
+.name {
+    font-size: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+}
 
-.wrap {
-    width: 80%;
+.name:hover, .logo:hover {
+    color: #66A7C5;
+}
+
+#bio {
+    height: 345px;
     margin: auto;
+    background-image: linear-gradient(to bottom right,#268dd1 0,#6f2cc7 100%);
+    background-image: -webkit-linear-gradient(top left,#2db343 0,#179990 100%);
+    color: #fff;
+}
+
+#bio .wrap {
+    width: 45%;
+    margin: auto;
+    padding: 124px 0;
+}
+
+#practitioners {
+    height: 345px;
+    margin: auto;
+    background-image: linear-gradient(to bottom right,#2db343 0,#179990 100%);
+    background-image:  -webkit-linear-gradient(top left,#268dd1 0,#6f2cc7 100%);
+    color: #fff;
+}
+
+#practitioners .wrap {
+    width: 50%;
+    margin: auto;
+    padding: 83px 0;
+}
+
+#practitioners .list {
+    list-style: none;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+#practitioners .list li {
+    padding: 10px 0;
+    width: 400px;
 }
