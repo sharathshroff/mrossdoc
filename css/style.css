@@ -100,12 +100,15 @@ p {
     background-image: -moz-linear-gradient(to bottom right,#268dd1 0,#6f2cc7 100%);
     background-image: linear-gradient(to bottom right,#268dd1 0,#6f2cc7 100%);
     color: #fff;
+    line-height: 345px; /*keep this the same as #bio height*/
+    text-align: center;
 }
 
 #bio .wrap {
-    width: 45%;
-    margin: auto;
-    text-align: center;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 #practitioners {
@@ -114,13 +117,7 @@ p {
     background-image:  -webkit-linear-gradient(top left,#268dd1 0,#6f2cc7 100%);
     background-image: -moz-linear-gradient(to bottom right,#2db343 0,#179990 100%);
     background-image: linear-gradient(to bottom right,#2db343 0,#179990 100%);
-
     color: #fff;
-}
-
-#practitioners .wrap {
-    width: 50%;
-    margin: auto;
 }
 
 #practitioners .list {
@@ -128,6 +125,7 @@ p {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+    padding: 90px 300px; /* will need to change, quick fix*/
 }
 
 #practitioners .list li {
