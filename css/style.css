@@ -140,8 +140,6 @@ p {
     -moz-column-count: 2;
     column-count: 2;
     overflow: hidden;
-    border-radius: 5px;
-    height: 150px;
 }
 
 #practitioners .list li {
