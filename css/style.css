@@ -120,12 +120,16 @@ p {
     color: #fff;
 }
 
+#practitioners .wrap {
+    width: 50%;
+}
+
 #practitioners .list {
     list-style: none;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    padding: 90px 300px; /* will need to change, quick fix*/
+/*    padding: 90px 300px;  will need to change, quick fix*/
 }
 
 #practitioners .list li {
