@@ -142,7 +142,9 @@ p {
     overflow: hidden;
 }
 
-#practitioners .list li {
-    padding: 10px 0;
+#practitioners .list .doctor {
     text-align: left;
+    min-width: 60px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
