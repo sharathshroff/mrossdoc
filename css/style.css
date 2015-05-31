@@ -64,8 +64,10 @@ p {
 }
 
 .wrap {
-    width: 80%;
+    width: 50%;
+    height: 100%;
     margin: auto;
+    display: table;
 }
 
 .main {
@@ -101,15 +103,7 @@ p {
     background-image: -moz-linear-gradient(to bottom right,#268dd1 0,#6f2cc7 100%);
     background-image: linear-gradient(to bottom right,#268dd1 0,#6f2cc7 100%);
     color: #fff;
-    line-height: 345px; /*keep this the same as #bio height*/
     text-align: center;
-}
-
-#bio .wrap {
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
 }
 
 #practitioners {
@@ -121,14 +115,7 @@ p {
     color: #fff;
 }
 
-#practitioners .wrap {
-    width: 50%;
-    height: 100%;
-    display: table;
-    height: 350px;
-}
-
-#practitioners .wrap .container {
+.container {
     display: table-cell;
     padding: 0;
     text-align: left;
@@ -150,7 +137,7 @@ p {
 
 .doctor {
     margin-bottom: 10px;
-    min-width: 450px;
+    min-width: 350px;
 }
 
 
@@ -158,9 +145,37 @@ p {
     width: device-width;
 }
 
+@media screen and (max-width: 700px) {
+    #bio {
+        height: 450px;
+    }
+
+    .wrap {
+        width: 95%;
+    }
+
+    #practitioners {
+        height: 450px;
+    }
+
+    #practitioners .list {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
 @media screen and (max-width: 1440px) {
-    #bio .wrap {
-        min-width: 450px;
+    #bio {
+        height: 450px;
+    }
+
+    .wrap {
+        width: 95%;
+    }
+
+    #practitioners {
+        height: 450px;
     }
 
     #practitioners .list {
