@@ -158,7 +158,7 @@ p {
     width: device-width;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1440px) {
     #bio .wrap {
         min-width: 450px;
     }
