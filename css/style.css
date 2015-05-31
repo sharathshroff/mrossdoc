@@ -9,6 +9,7 @@ body {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     height: 100%;
     width: 100%;
+    min-width: 550px;
 }
 
 @font-face {
@@ -142,9 +143,29 @@ p {
     overflow: hidden;
 }
 
-#practitioners .list .doctor {
+.docName {
     text-align: left;
     min-width: 60px;
-    overflow: hidden;
+}
+
+.doctor {
     margin-bottom: 10px;
+    min-width: 450px;
+}
+
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@media screen and (max-width: 950px) {
+    #bio .wrap {
+        min-width: 450px;
+    }
+
+    #practitioners .list {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
 }
