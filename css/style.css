@@ -133,7 +133,7 @@ p {
 }
 
 .doctor {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     min-width: 350px;
 }
 
@@ -141,27 +141,6 @@ p {
 @-ms-viewport {
     width: device-width;
 }
-
-/*
-@media screen and (max-width: 700px){
-    #bio,
-    #practitioners {
-        height: 450px;
-    }
-
-    .wrap {
-        width: 95%;
-    }
-
-    #practitioners .list {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        width: 100%;
-    }
-}
-*/
-
 
 @media screen and (max-device-width: 700px){
     #header .container .name,
@@ -202,14 +181,38 @@ p {
         column-count: 1;
         width: 100%;
     }
-
-    .doctor {
-        margin-bottom: 20px;
-    }
 }
 
 @media screen and (max-device-width: 1440px) {
     @viewport {
         height: 500px;
+    }
+}
+
+@media screen and (orientation: landscape){
+     #header .container .name,
+    #header .container .logo {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    body {
+        font-size: 200%;
+    }
+
+    #bio,
+    #practitioners {
+        height: 90vh;
+        min-height: 750px;
+        overflow: hidden;
+    }
+
+    #practitioners .list {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
     }
 }
