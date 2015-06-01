@@ -166,7 +166,7 @@ p {
 
 @media screen and (max-device-width: 700px){
     h1 {
-        font-size: 400%;
+        font-size: 40px;
     }
     h2 {
         font-size: 150%;
@@ -190,5 +190,9 @@ p {
         -moz-column-count: 1;
         column-count: 1;
         width: 100%;
+    }
+
+    .doctor {
+        margin-bottom: 20px;
     }
 }
