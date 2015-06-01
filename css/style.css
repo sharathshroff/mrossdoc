@@ -174,7 +174,6 @@ p {
         height: 70vh;
         min-height: 600px;
         overflow: hidden;
-        margin: auto;
     }
 
     #practitioners .list {
