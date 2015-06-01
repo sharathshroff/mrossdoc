@@ -192,15 +192,15 @@ p {
 @media screen and (orientation: landscape){
      #header .container .name,
     #header .container .logo {
-        font-size: 100%;
+        font-size: 200%;
     }
 
     h2 {
-        font-size: 100%;
+        font-size: 125%;
     }
 
     body {
-        font-size: 100%;
+        font-size: 125%;
     }
 
     #bio,
