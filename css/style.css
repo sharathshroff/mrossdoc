@@ -166,13 +166,13 @@ p {
 
 @media screen and (max-device-width: 700px){
     h1 {
-        font-size: 200%;
+        font-size: 400%;
     }
     h2 {
-        font-size: 200%;
+        font-size: 150%;
     }
     body {
-        font-size: 300%;
+        font-size: 200%;
     }
 
     .wrap {
