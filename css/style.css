@@ -164,7 +164,8 @@ p {
 
 
 @media screen and (max-device-width: 700px){
-    #header .container {
+    #header .container .name,
+    #header .container .logo {
         font-size: 200%;
     }
 
@@ -191,6 +192,8 @@ p {
     #bio,
     #practitioners {
         height: 65vh;
+        min-height: 600px;
+        overflow: hidden;
     }
 
     #practitioners .list {
