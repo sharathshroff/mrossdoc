@@ -184,4 +184,11 @@ p {
         height: 60vh;
         margin: auto;
     }
+
+    #practitioners .list {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        width: 100%;
+    }
 }
