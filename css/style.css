@@ -179,6 +179,13 @@ p {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width: 1440px) {
+    @viewport {
+        height: 500px;
     }
 }
 
