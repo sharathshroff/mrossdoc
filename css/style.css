@@ -165,7 +165,7 @@ p {
 
 @media screen and (max-device-width: 700px){
     #header .container .name {
-        font-size: 500%;
+        font-size: 200%;
     }
 
     h2 {
@@ -180,13 +180,17 @@ p {
         height: 220px;
     }
 
+    p {
+        padding-bottom: 20px;
+    }
+
     .wrap {
-        width: 80%;
+        width: 95%;
     }
 
     #bio,
     #practitioners {
-        height: 700px;
+        height: 65vh;
         margin: auto;
     }
 
