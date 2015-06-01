@@ -165,11 +165,14 @@ p {
 
 
 @media screen and (max-device-width: 700px){
+    h1 {
+        font-size: 200%;
+    }
     h2 {
-        font-size: 100%;
+        font-size: 200%;
     }
     body {
-        font-size: 200%;
+        font-size: 300%;
     }
 
     .wrap {
@@ -178,29 +181,7 @@ p {
 
     #bio,
     #practitioners {
-        height: 90vh;
-/*        padding: 50px 0;*/
+        height: 60vh;
         margin: auto;
     }
 }
-/*
-@media screen and (max-width: 1440px) {
-    #bio {
-        height: 450px;
-    }
-
-    .wrap {
-        width: 95%;
-    }
-
-    #practitioners {
-        height: 450px;
-    }
-
-    #practitioners .list {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-    }
-}
-*/
