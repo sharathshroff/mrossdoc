@@ -183,13 +183,7 @@ p {
     }
 }
 
-@media screen and (max-device-width: 1440px) {
-    @viewport {
-        height: 500px;
-    }
-}
-
-@media screen and (max-device-width: 1440px){
+@media screen and (max-device-width: 1440px) and (orientation: landscape){
      #header .container .name,
     #header .container .logo {
         font-size: 200%;
