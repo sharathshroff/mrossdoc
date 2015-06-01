@@ -207,3 +207,9 @@ p {
         margin-bottom: 20px;
     }
 }
+
+@media screen and (max-device-width: 1440px) {
+    @viewport {
+        height: 500px;
+    }
+}
