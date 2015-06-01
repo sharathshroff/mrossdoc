@@ -189,7 +189,7 @@ p {
     }
 }
 
-@media screen and (orientation: landscape){
+@media screen and (max-device-width: 1440px) and (orientation: landscape){
      #header .container .name,
     #header .container .logo {
         font-size: 200%;
@@ -205,6 +205,10 @@ p {
 
     header {
         250px;
+    }
+
+    .wrap {
+        width: 80%;
     }
 
     #bio,
