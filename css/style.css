@@ -164,8 +164,8 @@ p {
 
 
 @media screen and (max-device-width: 700px){
-    #header .container h1 {
-        font-size: 200%;
+    #header .container .name {
+        font-size: 500%;
     }
 
     h2 {
@@ -173,7 +173,7 @@ p {
     }
 
     body {
-        font-size: 150%;
+        font-size: 200%;
     }
 
     header {
