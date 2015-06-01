@@ -164,7 +164,7 @@ p {
 
 
 @media screen and (max-device-width: 700px){
-    #header .main h1 {
+    #header .container h1 {
         font-size: 200%;
     }
 
@@ -186,7 +186,7 @@ p {
 
     #bio,
     #practitioners {
-        height: 600px;
+        height: 700px;
         margin: auto;
     }
 
