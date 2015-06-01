@@ -70,10 +70,7 @@ p {
     display: table;
 }
 
-.main {
-    width: 80%;
-    height: 100%;
-    margin: auto;
+#header .container {
     text-align: center;
 }
 
@@ -176,7 +173,7 @@ p {
     }
 
     body {
-        font-size: 200%;
+        font-size: 150%;
     }
 
     header {
@@ -189,7 +186,7 @@ p {
 
     #bio,
     #practitioners {
-        height: 55vh;
+        height: 600px;
         margin: auto;
     }
 
