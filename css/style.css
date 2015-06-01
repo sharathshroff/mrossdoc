@@ -145,8 +145,9 @@ p {
     width: device-width;
 }
 
-@media screen and (max-width: 700px) {
-    #bio {
+@media screen and (max-width: 700px){
+    #bio,
+    #practitioners {
         height: 450px;
     }
 
@@ -154,17 +155,33 @@ p {
         width: 95%;
     }
 
-    #practitioners {
-        height: 450px;
-    }
-
     #practitioners .list {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
+        width: 100%;
     }
 }
 
+
+@media screen and (max-device-width: 700px){
+    h2 {
+        font-size: 100%;
+    }
+    body {
+        font-size: 200%;
+    }
+
+    .wrap {
+        width: 80%;
+    }
+
+    #bio,
+    #practitioners {
+        height: auto;
+        padding: 30px 0;
+    }
+}
 /*
 @media screen and (max-width: 1440px) {
     #bio {
