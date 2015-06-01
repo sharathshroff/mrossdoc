@@ -203,10 +203,14 @@ p {
         font-size: 125%;
     }
 
+    header {
+        250px;
+    }
+
     #bio,
     #practitioners {
-        height: 90vh;
-        min-height: 750px;
+        height: 70vh;
+        min-height: 600px;
         overflow: hidden;
     }
 
