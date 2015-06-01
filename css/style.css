@@ -170,7 +170,7 @@ p {
 
     #bio,
     #practitioners {
-        height: 65vh;
+        height: 70vh;
         min-height: 600px;
         overflow: hidden;
     }
@@ -179,17 +179,10 @@ p {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
-        width: 100%;
     }
 }
 
-@media screen and (max-device-width: 1440px) {
-    @viewport {
-        height: 500px;
-    }
-}
-
-@media screen and (max-device-width: 1440px) and (orientation: landscape){
+@media screen and (max-device-width: 1440px){
      #header .container .name,
     #header .container .logo {
         font-size: 200%;
