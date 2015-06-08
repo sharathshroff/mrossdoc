@@ -72,6 +72,11 @@ p {
 
 #header .container {
     text-align: center;
+    min-width: 500px;
+}
+
+#header h1 {
+    width: 100%;
 }
 
 .logo {
@@ -103,6 +108,10 @@ p {
     text-align: center;
 }
 
+#bio .wrap {
+    min-width: 720px;
+}
+
 #practitioners {
     height: 350px;
     margin: auto;
@@ -124,6 +133,9 @@ p {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
     overflow: hidden;
 }
 
@@ -136,7 +148,6 @@ p {
     margin-bottom: 20px;
     min-width: 350px;
 }
-
 
 @-ms-viewport {
     width: device-width;
@@ -183,7 +194,7 @@ p {
     }
 }
 
-@media screen and (max-device-width: 1440px) and (orientation: landscape){
+@media screen and (max-device-width: 1440px) and (orientation:landscape) {
      #header .container .name,
     #header .container .logo {
         font-size: 200%;
