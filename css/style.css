@@ -115,7 +115,7 @@ p {
 }
 
 #practitioners {
-    height: 450px;
+    height: 350px;
     margin: auto;
     background-image:  -webkit-linear-gradient(top left,#268dd1 0,#6f2cc7 100%);
     background-image: -moz-linear-gradient(to bottom right,#2db343 0,#179990 100%);
@@ -151,9 +151,8 @@ ul {
 }
 
 .doctor {
-    margin-bottom: 20px;
     min-width: 350px;
-    min-height: 150px;
+    min-height: 100px;
 }
 
 .chiros ul, .other ul {
@@ -208,6 +207,10 @@ ul {
     .docName {
         font-size: 120%;
     }
+
+    .doctor {
+        margin-bottom: 20px;
+    }
 }
 
 /* #### Tablets Portrait or Landscape #### */
@@ -242,6 +245,10 @@ ul {
         height: 70vh;
         min-height: 400px;
         overflow: hidden;
+    }
+
+    .doctor {
+        min-height: 150px;
     }
 
     #practitioners ul {
