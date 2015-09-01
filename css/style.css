@@ -6,7 +6,7 @@
 
 body {
     background-color: #f2efea;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     height: 100%;
     width: 100%;
     min-width: 550px;
@@ -54,7 +54,7 @@ a {
 }
 
 header {
-    height: 120px;
+    height: 200px;
 
 }
 
@@ -83,12 +83,12 @@ p {
     position: relative;
     right: 20px;
     top: 7px;
-    font-size: 74px;
+    font-size: 150px;
     color: #333;
 }
 
 .name {
-    font-size: 62px;
+    font-size: 74px;
     font-weight: 700;
     text-transform: uppercase;
     color: #333;
@@ -99,7 +99,7 @@ p {
 }
 
 #bio {
-    height: 350px;
+    height: 250px;
     margin: auto;
     background-image: -webkit-linear-gradient(top left,#2db343 0,#179990 100%);
     background-image: -moz-linear-gradient(to bottom right,#268dd1 0,#6f2cc7 100%);
@@ -113,12 +113,16 @@ p {
 }
 
 #practitioners {
-    height: 350px;
+    height: 450px;
     margin: auto;
     background-image:  -webkit-linear-gradient(top left,#268dd1 0,#6f2cc7 100%);
     background-image: -moz-linear-gradient(to bottom right,#2db343 0,#179990 100%);
     background-image: linear-gradient(to bottom right,#2db343 0,#179990 100%);
     color: #fff;
+}
+
+#practitioners .wrap {
+    min-width: 720px;
 }
 
 .container {
@@ -128,7 +132,7 @@ p {
     vertical-align: middle;
 }
 
-#practitioners .list {
+ul {
     list-style: none;
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -147,6 +151,15 @@ p {
 .doctor {
     margin-bottom: 20px;
     min-width: 350px;
+}
+
+.chiros ul, .other ul {
+    margin-left: 1em;
+    margin-top: 0.25em;
+}
+
+#practitioners .chiros, #practitioners .other {
+    margin-top: 1em;
 }
 
 @-ms-viewport {
